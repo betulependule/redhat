@@ -29,8 +29,9 @@ def genesis(amount):
         animal["diet"] = random.choice(["meat", "vegie", "both"])
         animals.append(animal)
 
-# The function above replaces values 0 for each key randomly and gradually 
+# The function above replaces values 0 for each key randomly and gradually
 # creates the required amount of animals.
+
 
 genesis(amount)
 
