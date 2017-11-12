@@ -80,8 +80,8 @@ def hunter(animals, accuracy):
 # higher than 100. The higher the "accuracy" is, the smaller is the
 # probability of the generated number "a" being higher.
 # In case the number "a" is smaller that "accuracy" and at least 
-# one of the next conditions is met, the active element is replaced
-# with "0". At the end, all zeros in "animals" are removed.
+# one of the next conditions is met, the dictionary is cleared.
+# At the end, all empty dictionaries in "animals" are removed.
 
 
 hunter(animals, accuracy)
