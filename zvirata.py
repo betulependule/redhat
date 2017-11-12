@@ -35,3 +35,27 @@ def balik_nohou(zvirata, lepsi_zvirata, kolo):
 
 balik_nohou(zvirata, lepsi_zvirata, kolo)
 
+kolo=1
+
+nechlupati_s_ocasy = []
+
+
+for i in lepsi_zvirata:
+	if kolo==3:
+		nechlupati_s_ocasy.append("husa")
+		kolo=kolo+1
+	elif kolo==7:
+		nechlupati_s_ocasy.append("had")
+		kolo=kolo+1
+	elif kolo==9:
+		nechlupati_s_ocasy.append("aligator")
+		kolo=kolo+1
+	elif kolo==10:
+		nechlupati_s_ocasy.append("orel")
+		kolo=kolo+1
+	else:
+		kolo=kolo+1
+
+print("Zvirata s ocasy bez chlupu jsou: {}".format(nechlupati_s_ocasy))
+
+
