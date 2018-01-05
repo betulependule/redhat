@@ -6,14 +6,14 @@ def bum_bac():
 	posloupnost=range(cislo1,cislo2,1)
 	a="bum"
 	b="bac"
-	for posloupnost in range(cislo1,cislo2,1):
-		if posloupnost%2==0 and posloupnost%6==0:
+	for x in posloupnost:
+		if x%2==0 and x%6==0:
 			print(a+b)
-		elif posloupnost%6==0:
+		elif x%6==0:
 			print(b)
-		elif posloupnost%2==0:
+		elif x%2==0:
 			print(a)		
 		else:
-			print(posloupnost)
+			print(x)
 bum_bac()
 		
