@@ -4,7 +4,7 @@ This is a code that includes creating, (and most importantly) slaying animals
 for fun. Viewer discretion is advised.
 
 The first function called "genesis" uses a template and randomly chooses
-from choices given to it, whilst creating a bunch of animals.
+from choices given to it, thus creating a bunch of animals.
 
 The second function called "armagedon" drowns animals according to
 a death rate that is given to it.
@@ -48,7 +48,7 @@ def armagedon(animals, death_rate, survivors):
             survivors.append(x)
 
 # The function above randomly generates a number "a" that cannot be
-# larger than 100. The higher the "death_rate" is, the smaller is the
+# larger than 100. The larger the "death_rate" is, the smaller is the
 # probability of the generated number "a" being larger.
 # That means that if "death_rate" = 100, the probability
 # of animals' survival is 0%.
@@ -75,11 +75,11 @@ def hunter(animals, accuracy):
     while {} in animals:
         animals.remove({})
 
-# The function above works the same as the one called "armagedon". 
+# The function above works the same as the one called "armagedon".
 # It randomly generates a number "a" that cannot be
-# higher than 100. The higher the "accuracy" is, the smaller is the
-# probability of the generated number "a" being higher.
-# In case the number "a" is smaller that "accuracy" and at least 
+# higher than 100. The larger the "accuracy" is, the smaller is the
+# probability of the generated number "a" being larger.
+# In case the number "a" is smaller that "accuracy" and at least
 # one of the next conditions is met, the dictionary is cleared.
 # At the end, all empty dictionaries in "animals" are removed.
 
